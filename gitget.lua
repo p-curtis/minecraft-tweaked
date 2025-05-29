@@ -9,5 +9,5 @@ local filename = read()
 local full_url = base_url .. filename
 
 -- Call wget to download the file
-print("Running: wget " .. full_url .. " " .. filename)
-shell.run("wget", full_url, filename)
+print("Running: wget " .. full_url)
+shell.run("wget", full_url)
